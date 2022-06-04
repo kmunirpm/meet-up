@@ -21,7 +21,7 @@ const DUMMY_DATA = [
   },
 ];
 
-function AllMeetupsPage() {
+const AllMeetupsPage = () => {
   return (
     <div>
       <h1>All Meetups Page</h1>
@@ -30,6 +30,6 @@ function AllMeetupsPage() {
       </ul>
     </div>
   );
-}
+};
 
 export default AllMeetupsPage;
